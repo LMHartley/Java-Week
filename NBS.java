@@ -11,7 +11,7 @@ class Bank{
             System.out.println("Insufficient Funds");
         }
     }
-    public void Balanca(){
+    public void Balance(){
         System.out.println("Your Balance:"+Amount);
     }
     public Bank(){
@@ -20,7 +20,10 @@ class Bank{
 }
 class NBS{
     public static void main(String XYZ[]){
-        Bank Ref;
-        Ref=new Bank();
+        Bank ref;
+        ref=new Bank();
+        ref.Deposit(200);
+        ref.Withdraw(250);
+        ref.Balance();
     }
 }

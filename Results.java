@@ -2,9 +2,9 @@ class Results{
     public static void main(String ZYZ[]){
         int Phy,Che,Mat,Total;
         float Per;
-        Phy=100;Che=80;Mat=70;
+        Phy=98;Che=82;Mat=74;
         Total=Phy+Che+Mat;
-        Per=Total*100/300;
+        Per=Total*100/300f;
         System.out.println("Total marks:"+Total);
         System.out.println("Percentage:"+Per);
         if(Per>=60){
