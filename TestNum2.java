@@ -1,7 +1,7 @@
 class digitstowords{
     private String ones(int num){
         String word="";
-        switch(num){
+        switch(num){ 
             case 1: word="one";break;
             case 2: word="two";break;
             case 3: word="three";break;
