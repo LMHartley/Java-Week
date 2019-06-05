@@ -9,5 +9,6 @@ class Manchester{
 class ManchesterTest{
     public static void main(String XYZ[]){
         Manchester x= new Manchester(1,2);
+        Manchester y=x;
     }
 }

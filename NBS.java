@@ -26,4 +26,4 @@ class NBS{
         ref.Withdraw(250);
         ref.Balance();
     }
-}
+} 

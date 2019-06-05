@@ -9,6 +9,7 @@ class Bank{
 }
 class TestBank{
     public static void main (String XYZ[]){
+        System.out.println(XYZ[1]);
         Bank HSBC,Natwest,NBS;
         HSBC =new Bank();
         Natwest =new Bank();
