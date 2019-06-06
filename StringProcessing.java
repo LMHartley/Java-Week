@@ -59,6 +59,23 @@ class ReversingWords{
         }
     }
 }
+class SearchWords{
+    public void searchWords(String msg){
+        int f=0;
+        int i=0;
+        int s=0;
+        String search="Hello";
+        while(i<msg.length()){
+            if(msg.substring(i,i+1).equals(search.substring(s,s+1))){
+                if(msg.substring(i,search.length()+i).equals(search)){
+                    f++;
+                }
+            i++;
+            }
+            System.out.println(f);
+        }
+    }
+}
 class StringProcessing{
     public static void main(String xyz[]){
         WordCount x=new WordCount();
@@ -69,5 +86,7 @@ class StringProcessing{
         z.reverseWords(" Hello my friends ");
         ReversingWords r=new ReversingWords();
         r.reversingWords(" Hello my friends ");
+        SearchWords s=new SearchWords();
+        s.searchWords("Hello Hello Hello");
     }
 }
