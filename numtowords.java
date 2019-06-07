@@ -1,28 +1,9 @@
 class digitstowords{
     private String ones(int num){
-        String word="";
-        switch(num){
-            case 1: word="one";
-            case 2: word="two";
-            case 3: word="three";
-            case 4: word="four";
-            case 5: word="five";
-            case 6: word="six";
-            case 7: word="seven";
-            case 8: word="eight";
-            case 9: word="nine";
-            case 10: word="ten";
-            case 11: word="eleven";
-            case 12: word="twelve";
-            case 13: word="thirteen";
-            case 14: word="fourteen";
-            case 15: word="fifteen";
-            case 16: word="sixteen";
-            case 17: word="seventeen";
-            case 18: word="eighteen";
-            case 19: word="nineteen";
-        }
-        return word;
+        String[] eins={"one","two","three","four","five","six","seven","eight","nine","ten",
+                       "eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen",
+                       "eighteen","nineteen"};
+        return eins[num];
     }
     private String tens(int num){
         String word="";
