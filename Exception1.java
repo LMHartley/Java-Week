@@ -1,4 +1,4 @@
-class Exception{
+class Exception1{
     public static void main(String XYZ[]){
         int A,B,C;
         A=B=C=0;
